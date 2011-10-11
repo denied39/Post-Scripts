@@ -22,8 +22,8 @@ class Metasploit3 < Msf::Post
 			'Name'                 => "Plant a Flag",
 			'Description'          => %q{
 				This module will plant a flag in a remote directory. The flag 
-		    can either be in plain view, or hidden in an Alternate Data Stream(ADS).
-		    If the flag is not to be hidden, do not set the REMOTEFILE option.
+				can either be in plain view, or hidden in an Alternate Data Stream(ADS).
+				If the flag is not to be hidden, do not set the REMOTEFILE option.
 				},
 			'License'              => MSF_LICENSE,
 			'Version'              => '$Revision: xxxx $',
